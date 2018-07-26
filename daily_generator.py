@@ -15,3 +15,5 @@ while gitFake > 0:
     print command
     os.system(command)
     gitFake -= 1
+
+os.system('git push origin -f master')
