@@ -6,7 +6,7 @@ from random import randint
 
 count = 1
 today = datetime.now()
-gitFake = randint(1, 3)
+gitFake = randint(1, 10)
 
 while gitFake > 0:
     today = today - timedelta(0, count * randint(1, 3), count * randint(2, 9), count * randint(3, 6))
